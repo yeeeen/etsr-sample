@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> <img src="images/etsuri-logo.svg" class="etsuriLogo"> </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <form class="form-inline navbar-form pull-left searchbox col-md-3">
+                     <input type="search" placeholder="Search......" name="search" class="searchbox-input form-control" onkeyup="buttonUp();" required>
+                        <input type="submit" class="searchbox-submit" value="">
+                        <span class="searchbox-icon"><i class="icon ion-android-search"></i></span>
+                   
+                  </form>
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="#"> <img src="images/icon-home-01.svg"></a></li>
+                    <li><a href="profile.html"> <img src="images/icon-user.svg"></a></li>
+                    <li><a href="#contact"> <img src="images/icon-notify.svg"> </a></li>
+                    <li class="active"><a href="#contact"> <img src="images/icon-write-top.svg"> </a></li>
+                </ul>
+            </div><!--.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container-fluid articleHeaderBanner" style="background-image:url(images/sampleImage-03.jpg)">
+    
+    </div>
+
+    <div class="container articleInfoStart">
+        
+        <div class="row">
+            <div class="col-md-6 authorInfo text-left">
+                <img src="images/sampleImage-02.jpg">
+                <span>Posted by <a href="">Dovas</a></span>
+                <div class="clearfix"></div>
+            </div>
+            
+            
+            
+            <div class="col-md-6 dateInfo text-right">
+                9 hours ago
+            </div>
+        </div>
+        
+        <div class="row articleHeading">
+            <h1>After Killing Famous Lion, Internet Outrage Forces The Killer To Close His Dental Office</h1>
+            
+            <div class="articleTopicsList">
+                <a href="" class="topicTeal">World</a>
+                <a href="" class="topicRed">Africa</a>
+                <a href="" class="topicGreen">Animals</a>
+            </div>
+        </div>
+        
+        <div class="row articleMainContent">
+            <p>Cecil the lion was one of the most popular attractions at Zimbabwe’s Hwange National Park – until he was killed by Walter Palmer, a dentist from the U.S. who paid $55,000 for the “pleasure” to kill the 13-year-old wildlife celebrity. The backlash from animal lovers around the world has been so strong that the dentist’s website has shut down and his office is shuttered.</p>
+
+ <p>Palmer, a trophied archer, paid a guide to lure Cecil out of the park at night so he could be hunted. He shot and wounded Cecil with a bow, but was only able to kill him 40 hours later. Cecil was beheaded and skinned – his carcass remained unused.</p>
+
+ <p>Not only did his hunt kill a local celebrity at the park, but, according to the Zimbabwean Tourism Authority, the hunt was illegal, and a criminal investigation is currently under way. Cecil’s death will affect more than just him and his fans. Now that Cecil is gone, other male lions will probably kill off the 24 cubs that he had left with his pride to ensure that their own bloodlines live on instead.</p>
+            
+            <div class="articleSource">
+            Source: <a href="http://www.boredpanda.com/cecil-lion-illegal-hunting-internet-backlash-walter-palmer-zimbabwe/">http://www.boredpanda.com/cecil-lion-illegal-hunting-internet-backlash-walter-palmer-zimbabwe/</a>
+            </div>
+        </div>
+        
+        <div class="row articleContentButtons">
+            <div class="col-md-6 text-left">
+                <a href="" class="btn articleRenewsBtn">Renews</a>
+                <a href="" class="btn btn-default articleShareBtn">Share</a>
+            </div>
+            
+            <div class="col-md-6 text-right">
+                <a href="" class="btn btn-default articleShareBtn"><i class="icon ion-android-share-alt"></i></a>
+                <a href="" class="btn btn-default articleMiscBtn"><i class="icon ion-android-more-horizontal"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+      <script src="js/js.js"></script>
+    <script src="js/jquery-ias.min.js"></script>
+ <script src="js/js.js"></script>
+    <script src="js/jquery-ias.min.js"></script>
+</body>
+    <script>
+        var ias = jQuery.ias({
+          container:  '#articleListContainer',
+          item:       '.articleStart',
+          //pagination: '#pagination',
+          //next:       '.next'
+        });
+    </script>
+</html>

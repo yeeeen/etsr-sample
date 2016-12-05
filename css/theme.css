@@ -1,0 +1,816 @@
+@import url(ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body{
+    font-family: Roboto, sans-serif;
+    background:#E9E9E9;
+    overflow-x: hidden;
+}
+
+/* LOGO */
+.etsuriLogo {
+    width: 20px;
+    height: auto;
+}
+
+/* Writing Block */
+.writingBlock {
+    text-align: center;
+    padding: 10px 0;
+    background:#FFF;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.writingBlock i {
+    display:block;
+    font-size: 40px;
+}
+
+.writingBlock a {
+    color:#AF1D1E;
+}
+
+.writingBlock a::after {
+    height: 100%;
+    border-right: 1px solid #ccc;
+    right:2px;
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+}
+
+.writingBlock a:last-child:after {
+    border: 0;
+}
+
+/* Article List */
+.articleStart {
+    background-size: cover;
+    min-height: 316px;
+    box-shadow: 0px 0px 6px #5D5D5D;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.articleInfo {
+    background-color: rgba(255, 255, 255, .9); 
+    display: block;
+    position:absolute;
+    bottom: 0;
+}
+
+.articleHeader, .articleHeader a {
+    color:#333;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.articleAuthor {
+    font-size: 12px;
+}
+
+.articleExerpt {
+    margin: 5px auto;
+}
+
+.articleTopics {
+    padding-bottom: 10px;
+}
+
+.articleTopics a {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.articleDate {
+    text-align:right;
+}
+
+/* Profile Page Article List */
+.profilePageArticle .articleStart {
+    background-size: cover;
+    min-height: 316px;
+    box-shadow: 0px 0px 6px #5D5D5D;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/* Profile Page Topic List */
+.profileTopicsList {
+    margin-top: 15px;
+}
+
+/* Profile Page Following / Follower List */
+
+.profileFollowingList .col-md-4 {
+    width: 33.33333333%;
+}
+
+
+.profileFollowingSnippet .row {
+    background:#555;
+    border-radius: 5px;
+    color:#fff;
+    position: relative;
+    padding: 20px 5px;
+    margin: 5px -11px 5px -11px;
+ 
+}
+
+.profileFollowingSnippet a {
+    color:#fff;
+}
+
+.profileFollowingSnippet img {
+    border-radius: 50%;
+}
+
+
+.profileFollowingSnippet .col-md-9 {
+    padding: 0;
+}
+
+.FollowingName {
+    font-size: 18px;
+    display: block;
+}
+
+.FollowingBio {
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+}
+
+.settingGear {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.settingGear img {
+    width: 17px;
+    height: auto;
+}
+
+/* Navi */
+.main-navigation img {
+    width: 20px;
+    height: auto;
+}
+.main-navigation i{
+    font-size: 25px;
+}
+
+
+
+/* TOPICS SIDEBAR */
+.sidebarHeader {
+    font-size: 16px}
+
+.topicStart {
+    display: block;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.topicImage {
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-color:#AE1F23;
+    border-radius: 5px;
+}
+
+.topicName {
+   padding:15% 0;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    background-color:rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+.topicName:hover {
+    background-color:rgba(0,0,0,0.6);
+}
+
+/* PROFILE */
+#profileBanner {
+    text-align: center;
+    background:#AE1F23;
+    color:#fff;
+    margin-bottom: 5px;
+}
+
+#profileBanner a {
+    color:#fff;
+}
+
+.jumbotron {
+    background:#AE1F23;
+    margin: 0;
+    padding: 30px 0 10px 0;
+}
+
+.nameAvatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.nameAvatar {
+    font-size: 34px;
+}
+
+.userBio {
+    margin: 20px auto;
+}
+
+.userBio p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.userFollowBtn {
+    margin: 20px auto;
+}
+
+.userStats {
+    width: 420px;
+    margin: 10px auto;
+}
+
+.userStats i {
+    font-style: normal;
+    font-size: 21px;
+    display: block;
+}
+
+.userStats a {
+    float: left;
+    margin: 0 25px;
+}
+
+/* Search */
+.searchHeader h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color:#1A1A1A;
+    padding: 20px 0;
+}
+
+.searchListHeader {
+    margin: 70px 0 0 0;
+    padding: 10px auto;
+}
+
+.searchByList a {
+    color:#4D4D4D;
+    display: block;
+    font-size: 20px;
+    padding: 3px 10px;
+}
+
+.searchByList a:hover, .searchByList a:active, .searchByList a.active {
+    color:#fff;
+    background:#AE1F23;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.searchTopicsList .topicName{
+    height: 100px;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+.searchTopicsList .topicName p{
+    font-size: 15px!important;
+}
+
+.topicFollowBtn {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+
+.searchListContainer .topicStart {
+    padding: 0;
+}
+
+.topicnoDesc {
+    padding-top: 35px!important;
+}
+
+.writerName h2 {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.writerName p {
+    font-size: 14px;
+    font-weight: 300px;
+    color:#656;
+}
+
+.writerPic .noPic {
+    display: block;
+    width: 57px;
+    height: 57px;
+    background-color: #AE1F23;
+    border-radius: 50%;
+    
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color:#fff;
+    line-height: 200%;
+}
+
+.writerSearchInfo:first-child {
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 20px 0;
+}
+
+.writerSearchInfo {
+   
+    border-bottom: 1px solid #b3b3b3;
+    padding: 20px 0;
+}
+
+.writerFollowBtn {
+    margin: 5px 0 0 0;
+    text-align: right;
+}
+
+/* Topic Page */
+#topicBanner {
+    text-align: center;
+    background:#AE1F23;
+    color:#fff;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.topicTitle h4 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.topicTitle h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.topicTitle p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px auto;
+    padding: 0;
+    width: 400px;
+}
+
+.topicButtons .btn {
+    margin: 10px 15px;
+}
+
+/* Login */
+.loginContainer {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.loginTagline {
+    font-size: 24px;
+    font-weight: 300;
+    color:#fff;
+    margin: 10px 0;
+}
+
+.fbLoginBtn img{
+    width: 280px;
+    height: auto;
+    display: block;
+}
+
+.loginForm, .miscLinks {
+    width: 280px;
+    margin: 10px auto;
+}
+
+.loginForm input {
+    margin-bottom: 10px;
+}
+
+.rememberInfo {
+    float: left;
+    text-align: left;
+     color:#fff;
+}
+
+.submitLogin {
+    float: right;
+}
+
+.submitLogin .btn-submit {
+    width: 115px;
+    background:#AE1F23;
+    color:#fff;
+}
+
+a.forgotPassword {
+    float: left;
+    font-size: 13px;
+    color:#fff;
+}
+
+a.signUpLink {
+    float: right;
+    font-weight: 500;
+    font-size: 13px;
+    color:#fff;
+}
+
+/* article */
+.articleHeaderBanner {
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+.articleInfoStart .row {
+    margin: 20px 0 10px 0;
+}
+
+.authorInfo {
+    padding: 0;
+}
+
+.authorInfo span {
+    float: left;
+    font-size: 14px;
+    margin: 10px 10px;
+}
+
+.authorInfo img {
+    width: 33px;
+    height: 33px;
+    float: left;
+    background:#AE1F23;
+    border-radius: 50%;
+}
+
+ .dateInfo {
+    padding: 10px 0;
+}
+
+.articleHeading {
+    margin-top: 0!important;
+}
+
+.articleInfoStart h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.articleTopicsList {
+    font-size: 12px;}
+
+.articleTopicsList a {
+    text-align: center;
+    background:#AE1F23;
+    color:#fff;
+    min-width: 100px;
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin-top 10px; margin-bottom: 10px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.articleMainContent {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.articleContentButtons {
+ 
+}
+
+/* Invite Page */
+.invitePageStart {
+    text-align: center;
+}
+
+.invitePageStart h2 {
+    font-size: 21px;
+    font-weight: normal;
+    margin-top:50px;
+}
+
+.inviteButtons {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.inviteButtons img {
+    width: 75px;
+    height:auto;
+}
+
+.inviteBtn {
+    background:#fff;
+    border-radius: 5px;
+    padding: 70px 40px;
+    margin: 0 10px;
+}
+
+.inviteBtn:hover {
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.loadingLine div {
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.loadingLine img {
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+
+/* User Thumbnails */
+.userThumbMidi {
+    background:#eee;
+}
+
+/* HEADING SETTINGS */
+
+h1 {
+    margin: 5px 0 0 0;
+    padding: 5px 0 2px 0;
+}
+
+/* TOPIC COLORS */
+.topicGreen {
+    color:#689744;
+}
+
+/* onBoarding */
+.onBoardingBody .container {
+    width: 800px;
+    margin:auto;
+}
+
+.onBoardingIntro, .onBoardingTopics{
+    margin-bottom: 20px;
+}
+
+body > div > nav > div > div.collapse.navbar-collapse > div {
+    padding-top: 6px;
+}
+
+body > div > nav > div > div.collapse.navbar-collapse > ul {
+    padding-top: 15px;
+}
+
+ .onBoardingIntro form {
+    margin-top: 20px;
+}
+
+.onBoardingIntro h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.onBoardingIntro .col-md-2 {
+    padding-top: 20px;
+}
+
+body > div > div > div.row.onBoardingIntro > form > div > div {
+    border-right: 0!important;  
+}
+
+body > div > div > div.row.onBoardingIntro > form > div > input {
+    border-left:0!important;
+    background:#EEEEEE!important;
+    box-shadow: none!important
+}
+
+.searchWritersList .row {
+    margin-left:0;
+    margin-right: 0;
+}
+
+/* Logout */
+.logoutPage {
+    text-align: center;
+}
+
+.logoutPage h2 {
+    font-size: 24px;
+    font-weight: 300;
+    color:#fff;
+    margin: 20px 0;
+}
+
+.logoutFooter a {
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+/* Search Box */
+.searchbox{
+    position:relative;
+    min-width:50px;
+    width:0%;
+    float:right;
+    overflow:hidden;
+    
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.searchbox-input, .searchbox .form-control{
+    top:0;
+    right:0;
+    border:0;
+    outline:0;
+    width:100%;
+}
+.searchbox-input::-webkit-input-placeholder {
+    color: #d74b4b;
+}
+.searchbox-input:-moz-placeholder {
+    color: #d74b4b;
+}
+.searchbox-input::-moz-placeholder {
+    color: #d74b4b;
+}
+.searchbox-input:-ms-input-placeholder {
+    color: #d74b4b;
+}
+
+.searchbox-icon,
+.searchbox-submit{
+    width:50px;
+    text-align: center;
+    display:block;
+    position:absolute;
+    top:0;
+    font-family:verdana;
+    font-size:22px;
+    right:0;
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    line-height:35px;
+
+    cursor:pointer;
+    color:#dcddd8;
+    background:#FBFBFB;
+    border-left: 1px solid #CACACA;
+}
+
+
+
+.searchbox-open{
+    width:25%;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default {
+    color: #ae1f23!important;
+    background-color: transparent!important;
+    background-image: none!important;
+    border-color: #ae1f23!important;
+    min-width: 150px;
+    text-align: center;
+}
+
+.btn-default-inverted {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    min-width: 150px;
+     text-align: center;}
+
+.btn-default-inverted:hover {
+    color: #ae1f23!important;
+    background-color: #fff;
+    border-color: #fff;
+    min-width: 150px;
+}
+
+.btn-active {
+    color: #fff!important;
+    background-color: #ae1f23;
+    border-color: #ae1f23;
+    min-width: 150px;
+     text-align: center;}
+
+/* Writing Page */
+.writingPage {
+    margin-top: 25px;
+    background:#fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.writingPage .row {
+    margin-bottom: 30px;
+}
+
+.writingPage-ArticleTitle, .writingPage-textArea {
+    border: 0;
+}
+
+.writingPage-ArticleTitle  {
+    font-size: 18px;
+    color: #3d3d3d!important;
+}
+
+.writingPage-textArea {
+    color:#5E5E5E;
+    font-size: 16px;
+    overflow-y:hidden;
+}
+
+.articleButtons {
+    border-top: 1px #ccc solid;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.04);
+}
+
+.articleButtons .container {
+    text-align: right;
+}
+
+.addTopicBtn {
+    font-size: 11px;
+    min-width: 100px!important;
+}
+
+.articleButtons .btn-default-inverted {
+    color: #3d3d3d;
+    background-color: transparent;
+    border-color: #3d3d3d;
+    min-width: 150px;
+     text-align: center;
+    margin-right: 10px;}
+
+.articleButtons .btn-default-inverted:hover {
+    color: #ae1f23!important;
+    background-color: #fff;
+    border-color: #fff;
+    min-width: 150px;
+}
+
+.writingPage-ArticleImage {
+    padding: 20px 40px;
+    font-size: 35px;
+    border: 1px #ccc solid;
+    background: rgba(0,0,0,.04);
+}
+
+
+
+
+
+/* Animation */
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

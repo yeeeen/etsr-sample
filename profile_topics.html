@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Profile - Topics</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+        
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+    </style>
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> <img src="images/etsuri-logo.svg" class="etsuriLogo"> </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <form class="form-inline navbar-form pull-left">
+                    <input class="form-control" type="text" placeholder="Search">
+
+                </form>
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li>
+                        <a href="index.html"> <img src="images/icon-home-01.svg"></a>
+                    </li>
+                    <li>
+                        <a href="profile.html"> <img src="images/icon-user.svg"></a>
+                    </li>
+                    <li>
+                        <a href="#contact"> <img src="images/icon-notify.svg"> </a>
+                    </li>
+                    <li class="active">
+                        <a href="#contact"> <img src="images/icon-write-top.svg"> </a>
+                    </li>
+                </ul>
+            </div>
+            <!--.nav-collapse -->
+        </div>
+    </nav>
+
+    <div id="profileBanner" class="container-fluid">
+        <div class="jumbotron">
+            <div class="nameAvatar">
+                <img src="images/sampleImage-01.jpg">
+                <span>First LastName</span>
+            </div>
+
+            <div class="userBio">
+                <p>Some short biography here</p>
+            </div>
+
+            <a class="btn btn-default-inverted userFollowBtn" href="#" role="button">Follow</a>
+
+            <div class="userStats">
+                 <a href="profile.html"><i>19</i> Articles</a>
+                <a href="profile_topics.html"><i>15</i> Topics</a>
+                <a href="profile_following.html"><i>3</i> Following</a>
+                <a href="profile_following.html"><i>2</i> Follwers</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="profilePageTopic container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="profileTopicsList">
+                    <a class="topicStart col-md-3">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName">Technology</div>
+                        </div>
+
+                    </a>
+
+                    <a class="topicStart col-md-3">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName">Technology</div>
+                        </div>
+                    </a>
+                    
+                    <a class="topicStart col-md-3">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName">Technology</div>
+                        </div>
+                    </a>
+                    
+                    <a class="topicStart col-md-3">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName">Technology</div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+     <script src="js/js.js"></script>
+    <script src="js/jquery-ias.min.js"></script>
+ <script src="js/js.js"></script>
+    <script src="js/jquery-ias.min.js"></script>
+</body>
+    <script>
+        var ias = jQuery.ias({
+          container:  '#articleListContainer',
+          item:       '.articleStart',
+          //pagination: '#pagination',
+          //next:       '.next'
+        });
+    </script>
+</html>

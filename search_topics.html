@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Search Page</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> <img src="images/etsuri-logo.svg" class="etsuriLogo"> </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <form class="form-inline navbar-form pull-left">
+                    <input class="form-control" type="text" placeholder="Search">
+                   
+                  </form>
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="#"> <img src="images/icon-home-01.svg"></a></li>
+                    <li><a href="profile.html"> <img src="images/icon-user.svg"></a></li>
+                    <li><a href="#contact"> <img src="images/icon-notify.svg"> </a></li>
+                    <li class="active"><a href="#contact"> <img src="images/icon-write-top.svg"> </a></li>
+                </ul>
+            </div><!--.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                 
+                
+                <div class="searchHeader row">
+                    
+                       <h1>
+                        Search results for: <i>Start up</i>
+                        </h1>
+                    
+                </div>
+                <div class="clearfix"></div>
+                
+                <div class="searchListContainer" class="row">
+                    <div class="searchTopicsList">
+                    <div class="topicStart col-md-12">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName">Technology
+                                <p>Start up description paragraph here. Lorem ipsum <br />
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                                
+                                <a class="btn btn-default topicFollowBtn" href="#" role="button">Follow</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="topicStart col-md-12">
+                        <div class="topicImage" style="background-image:url();">
+                             <div class="topicName">Technology
+                                <p>Start up description paragraph here. Lorem ipsum <br />
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                                  <a class="btn btn-default topicFollowBtn" href="#" role="button">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="topicStart col-md-12">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName topicnoDesc">Technology
+                             <a class="btn btn-default topicFollowBtn" href="#" role="button">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="topicStart col-md-12">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                            <div class="topicName topicnoDesc">Technology
+                             <a class="btn btn-default topicFollowBtn" href="#" role="button">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <h2 class="sidebarHeader searchListHeader">Search By</h2>
+                <div class="searchByList">
+                    <a href="search.html">Articles</a>
+                    <a href="search_topics.html">Topics</a>
+                    <a href="search_writers.html">Writers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    
+ <script src="js/js.js"></script>
+    <script src="js/jquery-ias.min.js"></script>
+</body>
+    <script>
+        var ias = jQuery.ias({
+          container:  '#articleListContainer',
+          item:       '.articleStart',
+          //pagination: '#pagination',
+          //next:       '.next'
+        });
+    </script>
+</html>

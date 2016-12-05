@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> <img src="images/etsuri-logo.svg" class="etsuriLogo"> </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <form class="form-inline navbar-form pull-left searchbox col-md-3">
+                     <input type="search" placeholder="Search......" name="search" class="searchbox-input form-control" onkeyup="buttonUp();" required>
+                        <input type="submit" class="searchbox-submit" value="">
+                        <span class="searchbox-icon"><i class="icon ion-android-search"></i></span>
+                   
+                  </form>
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="#"> <img src="images/icon-home-01.svg"></a></li>
+                    <li><a href="profile.html"> <img src="images/icon-user.svg"></a></li>
+                    <li><a href="#contact"> <img src="images/icon-notify.svg"> </a></li>
+                    <li class="active"><a href="#contact"> <img src="images/icon-write-top.svg"> </a></li>
+                </ul>
+            </div><!--.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="writingBlock row">
+                    <a class="col-sm-3">
+                        <i class="icon ion-ios-compose"></i>
+                        Write
+                    </a>
+                    <a class="col-sm-3">
+                        <i class="icon ion-camera"></i>
+                        Photo
+                    </a>
+                    <a class="col-sm-3">
+                        <i class="icon ion-ios-videocam"></i>
+                        Video
+                    </a>
+                    <a class="col-sm-3">
+                        <i class="icon ion-link"></i>
+                        Link
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+                
+                <div id="articleListContainer">
+                    <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                    
+                    <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                       <div class="articleStart row" style="background-image:url(images/sampleImage-01.jpg);">
+                        <div class="articleInfo">
+                            <h1 class="articleHeader col-md-12"><a href="#">Man uses his iPhone to insert TV and movie characters into everyday life</a></h1> 
+                            <span class="articleAuthor col-md-12">Written by <a href="#">Yap Yen</a></span>                       
+                            
+                            <p class="articleExerpt col-md-12">French photographer Francois Dourlen sees the remarkable and the fantastical amid the commonplace. Dourlen uses his iPhone to place fictional characters in the real world, often juxtaposing them with street signs or heavy machinery.</p>
+                            
+                            <div class="col-md-10 articleTopics">
+                                <a href="" class="topicGreen">Design</a>
+                                <a href="">Creative</a>
+                            </div>
+                            
+                            <div class="col-md-2 articleDate">
+                            16 July 2015
+                            </div>
+                        <div class="clearfix"></div></div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div id="pagination">
+                  <a href="page1.html">1</a>
+                  <a href="page2.html" class="next">2</a>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <h2 class="sidebarHeader">Recommended Topics</h2>
+                <div class="sideTopicList">
+                    <a class="topicStart">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                             <div class="topicName">Technology</div>
+                        </div>
+                       
+                    </a>
+                    
+                     <a class="topicStart">
+                        <div class="topicImage" style="background-image:url(images/sampleImage-02.jpg);">
+                             <div class="topicName">Technology</div>
+                        </div>
+                       
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/jquery-ias.min.js"></script>
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
